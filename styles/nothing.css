@@ -1,0 +1,45 @@
+body {
+font-family: "Manrope", sans-serif;;
+}
+
+.container {
+    box-sizing: border-box;
+    max-width: 1400px;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+img {
+    margin-bottom: 15px;
+
+    width: 1000px;
+}
+
+h1 {
+    margin-bottom: 100px;
+    font-size: 70px;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    font-size: 50px;
+    color: #AD1818;
+    border: 1px solid #AD1818;
+    border-radius: 5px;
+    width: 50%;
+    height: 150px;
+    line-height: 150px;
+    text-align: center;
+    transition: background-color 0.3s
+}
+
+a:hover {
+    background-color: #AD1818;
+    color: #F5F5F5;
+}
