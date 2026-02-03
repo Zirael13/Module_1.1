@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: "Manrope", sans-serif;
     background-color: #F5F5F5;
@@ -10,7 +14,33 @@ body {
     margin: 0 auto;
     width: 1400px;
     padding: 125px;
+    padding-top: 30px;
     box-sizing: border-box;
+}
+
+.menu_navigation {
+    margin-bottom: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu__item {
+    margin-right: 60px;
+
+    color: #121212;
+    font-size: 18px;
+    text-decoration: none;
+
+    transition: 0.3s;
+}
+
+.menu__item:nth-last-child(1) {
+    margin-right: 0px;
+}
+
+.menu__item:hover {
+    opacity: 0.5;
+    text-decoration: underline;
 }
 
 .main_container {
@@ -191,4 +221,27 @@ body {
     font-weight: 400;
     letter-spacing: -0.03em;
     color: #FFFFFF;
+}
+
+.project_picture {
+    position: relative;
+    margin: 0 auto;
+    width: 1400px;
+    height: 717px;
+    background-image: url(/resources/project_picture.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.project_picture__title {
+    position: absolute;
+    left: 125px;
+    bottom: 60px;
+
+    color: #FFFFFF;
+    width: 443px;
+    height: 82px;
+    line-height: 43px;
+    font-size: 30px;
 }
